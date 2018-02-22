@@ -1,0 +1,131 @@
+*{
+	font-family: 'Barlow', sans-serif;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container
+{
+	height: 100vh;
+	width: 100%;
+	margin:0px;
+	padding: 0px;
+}
+.header
+{
+height: 40vh;
+width: 100%;
+text-align: center;
+margin: 0px;
+background-color: #3f4856;
+}
+.hname
+{	
+	margin:auto;
+	padding-top: 8vh;
+}
+.header h1
+{
+	color: white;
+	font-size: 70px;
+	font-weight: bold;
+	margin:0px;
+	display: block;
+}
+.loginbox{
+	width:30%;
+	margin: auto;
+	margin-top: 60px;
+	text-align: center;
+	border:1px solid grey;
+	box-shadow: 7px 7px 7px #b7b5b6; 
+}
+
+.lhead
+{
+	width: 100%;
+	text-align: center;
+	background-color: #6d0014;
+	color: white;
+}
+.lhead span
+{
+	font-size: 40px;
+	font-style: normal;
+	font-weight: bold;
+	margin: auto;
+}
+.loginbox input
+{
+	margin:10px 5px;
+	width: 70%;
+	height: 30px;
+	font-size: 15px;
+}
+.loginbox i
+{
+margin: 2px;
+padding-top: 5px;
+}
+#sub
+{
+width: 120px;
+height: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: #053814;
+color: white;
+font-weight: 18px;
+border:1px solid black; 
+opacity: 0.8;
+
+}
+#sub:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}
+@media only screen and (max-width: 1026px)
+{
+	.loginbox{
+		width: 60%;
+	}
+}
+@media only screen and (max-width: 600px)
+{
+.header h1
+{
+	font-size: 50px;
+}	
+}
+#slection{
+margin: 40px auto 5px;
+text-align: center;
+}
+select{
+	font-size:18px; 
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 5px;
+	box-shadow: 2px 2px 2px grey;
+	background-color: #e1e3e8;
+}
+
+/*admin*/
+#adsub{
+width: 120px;
+height: 30px;
+margin-top: 20px;
+margin-bottom: 20px;
+background-color: #053814;
+color: white;
+font-weight: 18px;
+border:1px solid black; 
+opacity: 0.8;
+
+}
+#adsub:hover{
+	opacity: 1.0;
+	cursor: pointer;
+}

@@ -1,0 +1,21 @@
+#nuser
+{
+	margin:auto;
+	width: 50%;
+	background-color: #aaaaa9;
+	padding: 10px;
+	border:1px solid black;
+	line-height: 3em;
+	color: black;
+	font-weight: bold;
+}
+.user
+{
+	width: 50%;
+	background-color: ;
+	padding: 13px;
+	line-height: 1.8em;
+	background-color: #d9dde2;
+	border: 0.5px solid black;
+	margin-left: 2%;
+}

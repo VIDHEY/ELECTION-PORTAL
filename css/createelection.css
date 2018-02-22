@@ -1,0 +1,50 @@
+*{
+	font-family: 'Barlow', sans-serif;
+}
+
+.postinfo
+{
+	width: 50%;
+	background-color: grey;
+	font-size:15px;
+	background-color: #c4c8ce;
+	border:1px solid black;
+	border-radius: 10px;
+	padding: 15px 10%;
+	margin:15px auto;
+}
+
+#submit
+{
+display: block;
+margin: auto;
+font-size: 15px;
+opacity: 0.8;
+background-color: #37663d;
+color: white;
+padding: 10px;
+border:1px solid black;
+border-radius: 5px;
+}
+#submit:hover
+{
+opacity: 1.0;
+
+}
+#ename
+{
+	padding: 10px;
+	font-size: 20px;
+	width: 40%;
+	margin:1% auto;
+	background-color: #e4e5e0;
+	border:1px solid black;
+	border-radius: 2px;
+	box-shadow: 2px 2px 5px grey;
+}
+i{
+	margin-left: 2%;
+}
+#candnm{
+	margin: 5px;
+}
